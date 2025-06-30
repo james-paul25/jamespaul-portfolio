@@ -7,7 +7,7 @@ const Future = () => {
           <div className="TypeEffect">
             <Typewriter
                 options={{
-                    strings: ['Soon...', 'Resume Under Construction', 'Check Back Later', 'Thank You for Your Patience..'],
+                    strings: ['Soon...', 'Resume Under Construction', 'Check Back Later', 'Thank You for Your Patience...'],
                     autoStart: true,
                     loop: true,
                     delay: 70,
