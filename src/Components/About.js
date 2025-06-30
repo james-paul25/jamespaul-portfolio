@@ -11,7 +11,7 @@ const About = () => {
           <h1 className='AboutTextHeading' >Get to <b>know</b> me!</h1>
           <p>
             Hi there, my name is <b>James Paul B. Dacaldacal.</b> 
-            I'm a <b>student developer</b> and incoming 3rd year college student pursuing <b>BSComSci in BISU Balilihan</b>. <br/><br/>
+            I'm a <b>student developer</b> and incoming 3rd year college student pursuing <b>BS Computer Science in BISU Balilihan</b>. <br/><br/>
             I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
             Apart from coding I love to do solving rubiks cube, you can check out some of my official solve here in <a href="https://www.worldcubeassociation.org/persons/2023DACA01 " target='_blank' rel="noopener noreferrer">worldcubeassociation.</a>
           </p>
