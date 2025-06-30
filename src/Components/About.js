@@ -1,8 +1,7 @@
 import React from 'react';
 import Skills from './Skills.js';
 import Tilt from 'react-parallax-tilt';
-import Lottie from "lottie-react"
-import Coder from '../LottieFiles/coder.json';
+import Avatar from '../images/fascx.png';
 
 const About = () => {
   return (
@@ -14,17 +13,13 @@ const About = () => {
             Hi there, my name is <b>James Paul B. Dacaldacal.</b> 
             I'm a <b>student developer</b> and incoming 3rd year college student pursuing <b>BSComSci in BISU Balilihan</b>. <br/><br/>
             I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
-            Apart from coding I love to do solving rubiks cube, you can check out some of my official solve here in <a href="https://www.worldcubeassociation.org/persons/2023DACA01" target='_blank'>worldcubeassociation.</a>
+            Apart from coding I love to do solving rubiks cube, you can check out some of my official solve here in <a href="https://www.worldcubeassociation.org/persons/2023DACA01 " target='_blank' rel="noopener noreferrer">worldcubeassociation.</a>
           </p>
         </div>
 
         <div>
           <Tilt>
-              <Lottie 
-              className="illustration" 
-              animationData={Coder} 
-              loop={true} 
-            />
+            <img className='Avatar' src={Avatar} alt="" />
           </Tilt>
         </div>
 
