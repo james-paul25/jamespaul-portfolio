@@ -29,8 +29,8 @@ const Home = () => {
              I'm a computer science student constantly improving my coding skills—especially frontend, which I’m working hard to get better at—while already confident in building backend REST APIs. I’m determined to keep growing, and I love solving Rubik's Cubes in my spare time.<br /><br />
               I love the process of turning a raw idea into a website or a product that impacts lives.
               I want to do work that challenges me as a developer and work that I can be proud of.<br /><br />
-              I am fluent in <b>C++</b>, know a bit of <b>Python</b>, and I'm working on projects in the <b>MERN</b> stack.<br />
-              I plan to learn <b>Next.js</b>, <b>Three.js</b>, and <b>TypeScript</b> in the near future.<br /><br />
+              I am fluent in <b>Java</b>, know of <b>Javascript</b>, and I'm working on projects in the <b>SPRING framework</b> stack.<br />
+              I plan to learn <b>Next.js</b>, <b>Express.js</b>, and <b>TypeScript</b> in the near future.<br /><br />
               Also, I love <b>coffee</b><CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
           </p>
         </div>
