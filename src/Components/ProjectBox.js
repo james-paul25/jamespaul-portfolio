@@ -5,21 +5,22 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    TindogDesc : "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
-    TindogGithub : "https://github.com/DevanshSahni/tindog",
-    TindogWebsite : "https://devanshsahni.github.io/tindog/",
+    MoneaseDesc : "This app will track your expenses and income, allowing you to categorize them and view your financial status. It is a full-stack application built with Android Studio, Java, and Firebase. It is a school project that I made to help them manage their finances.",
+    MoneaseGithub : "https://github.com/james-paul25/monease-expense-app",
+    MoneaseWebsite : "",
 
-    RogFreeDesc : "A website that shows you over seven specialized yoga postures for specific diseases or health problems. This was a group project made in a team of two for a 36-hour-long online hackathon named Hackodisha 2.0.",
-    RogFreeGithub : "https://github.com/DevanshSahni/Rog-Free",
-    RogFreeWebsite : "https://devanshsahni.github.io/Rog-Free/",
-
-    NewsletterDesc:"A newsletter signup site made using Mailchimp API where the signups can be monitored from the MailChimp account. This project was made to understand API integration, environment variables and vercel deployment.",
-    NewsletterGithub:"",
-    NewsletterWebsite:"https://newsletter-signup-teal.vercel.app/",
+    PPLSDesc : "A Password Protected Lock System (PPLS) is a arduino-based simulation project that provides a secure way to lock and unlock doors using a password. It uses an Arduino board, a keypad, and a servo motor to control the locking mechanism. The user can enter a password on the keypad to unlock the door, and the system will lock the door automatically after a certain period of time.",
+    PPLSGithub : "",
+    PPLSWebsite : "https://www.tinkercad.com/things/aCWEo6JrS0L-password-protected-lock-system",
     
-    WigglesDesc:"An innovative pet management web app enabling pet parents to create unique pet IDs, securely store and share vaccination records, and generate QR codes for pet profiles, enhancing safety.",
-    WigglesGithub:"https://github.com/DevanshSahni/Wiggles",
-    WigglesWebsite:"https://wiggles.vercel.app/",
+    PeerToPeerDesc:"This is a Peer-to-Peer Tutoring System frontend that allows students to connect with each other for tutoring sessions. It is built using React, Springboot, and MySql. The system allows students to create profiles, search for tutors, and schedule tutoring sessions. It is a full-stack application that I made to help students find tutors easily.",
+    PeerToPeerGithub:"https://github.com/james-paul25/bisu-p2p-tutoring-system-frontend",
+    PeerToPeerWebsite : "",
+
+    PeerPeerDesc:"This is a Peer-to-Peer Tutoring System backend that allows students to connect with each other for tutoring sessions. It is built using React, Springboot, and MySql. The system allows students to create profiles, search for tutors, and schedule tutoring sessions. It is a full-stack application that I made to help students find tutors easily.",
+    PeerPeerGithub:"https://github.com/james-paul25/bisu-p2p-tutoring-system-backend",
+    PeerPeerWebsite : "",
+
   }
 
   let show ='';
@@ -37,11 +38,11 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
             {desc[projectName + 'Desc']}
             <br />
 
-            <a style={{display:show}} href={desc[projectName + 'Github']} target='_blank'>
+            <a style={{display:show}} href={desc[projectName + 'Github']} target='_blank' rel="noopener noreferrer">
               <button className='projectbtn'><FaGithub/> Github</button>
             </a>
 
-            <a href={desc[projectName + 'Website']} target='_blank'>
+            <a href={desc[projectName + 'Website']} target='_blank' rel="noopener noreferrer">
               <button className='projectbtn'><CgFileDocument/> Demo</button>
             </a>
         </div>
