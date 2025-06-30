@@ -1,13 +1,30 @@
 import React from 'react'; 
 import { CgCPlusPlus } from "react-icons/cg";
-import {FaReact, FaPython, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap} from "react-icons/fa";
-import {DiNodejs, DiJavascript1} from "react-icons/di";
-import {SiExpress, SiMongodb, SiPostman, SiVercel} from "react-icons/si";
+import { 
+  FaReact, FaPython, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap,
+  FaJava, FaAndroid, FaHtml5, FaCss3Alt
+} from "react-icons/fa";
+import { 
+  DiNodejs, DiJavascript1 
+} from "react-icons/di";
+import { 
+  SiExpress, SiMongodb, SiPostman, SiVercel, SiSpring, SiMysql, SiFirebase, SiC 
+} from "react-icons/si";
+
 
 const Skills = ({skill}) => {
     const icon = {
         'C++': <CgCPlusPlus/>,
         Postman: <SiPostman/>,
+        Python: <FaPython/>,
+        Java: <FaJava/>,
+        Android: <FaAndroid/>,
+        C: <SiC/>,
+        Html: <FaHtml5/>,
+        Css: <FaCss3Alt/>,
+        MySql: <SiMysql/>,
+        Firebase: <SiFirebase/>,
+        Spring: <SiSpring/>,
         React: <FaReact/>,
         Javascript: <DiJavascript1/>,
         Node : <DiNodejs/>,

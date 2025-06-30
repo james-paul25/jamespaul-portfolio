@@ -11,12 +11,10 @@ const About = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading' >Get to <b>know</b> me!</h1>
           <p>
-            Hi, my name is <b>Devansh Sahni</b> and I am from New Delhi, India.
-            I'm a <b>MERN stack web developer</b> and a final year college student pursuing <b>BTech in CSE</b>. <br/><br/>
-            I have done an internship as a <b>software developer</b> at GoalFi which is a fintech startup.
-            I love to create original projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
+            Hi there, my name is <b>James Paul B. Dacaldacal.</b> 
+            I'm a <b>student developer</b> and incoming 3rd year college student pursuing <b>BSComSci in BISU Balilihan</b>. <br/><br/>
             I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
-            Apart from coding I love to do photography, you can check out some of my shots here <a href="https://www.instagram.com/devansh_sahni_/?hl=en" target='_blank'>Instagram.</a>
+            Apart from coding I love to do solving rubiks cube, you can check out some of my official solve here in <a href="https://www.worldcubeassociation.org/persons/2023DACA01" target='_blank'>worldcubeassociation.</a>
           </p>
         </div>
 
@@ -32,22 +30,22 @@ const About = () => {
 
       </div>
       
-      <h1 className='SkillsHeading'>Professional Skillset</h1>
+      <h1 className='SkillsHeading'>Skills</h1>
       <div className='skills'>
         
+        <Skills skill='C' />
+        <Skills skill='Java' />
+        <Skills skill='Spring' />
+        <Skills skill='Mysql' />
+        <Skills skill='Html' />
+        <Skills skill='Css' />
+        <Skills skill='Javascript' />
         <Skills skill='React' />
-        <Skills skill='Node' />
-        <Skills skill='Express' />
-        <Skills skill='MongoDb' />
+        <Skills skill='Android' />
         <Skills skill='Git' />
         <Skills skill='Github' />
-        <Skills skill='Javascript' />
-        <Skills skill='C++' />
         <Skills skill='Postman' />
         <Skills skill='Figma' />
-        <Skills skill='Vercel' />
-        <Skills skill='Npm' />
-        <Skills skill='Bootstrap'/>
         
       </div>
     </>
