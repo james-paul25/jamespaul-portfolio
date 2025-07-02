@@ -3,6 +3,7 @@ import ProjectBox from './ProjectBox';
 import ArduinoImage from '../images/ard.png';
 import PeerImage from '../images/p2p.png';
 import MoneaseImage from '../images/monease.png';
+import LaughShareImage from '../images/laughshare.png';
 
 const Projects = () => {
   return (
@@ -13,6 +14,7 @@ const Projects = () => {
         <ProjectBox projectPhoto={PeerImage} projectName="PeertoPeerBackend" />
         <ProjectBox projectPhoto={ArduinoImage} projectName="PPLS" />
         <ProjectBox projectPhoto={MoneaseImage} projectName="Monease" />
+        <ProjectBox projectPhoto={LaughShareImage} projectName="LaughShare" />
       </div>
 
     </div>

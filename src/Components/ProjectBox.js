@@ -21,6 +21,10 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     PeertoPeerBackendGithub:"https://github.com/james-paul25/bisu-p2p-tutoring-system-frontend",
     PeertoPeerBackendWebsite : "",
 
+    LaughShareDesc:"LaughShare is a social media platform that allows users to share their laughter and connect with others. It is built using React + Vite, firebase, and deploy at Vercel. The system allows users to post jokes. It is a full-stack application that I made to help people share their laughter and connect with others.",
+    LaughShareGithub:"https://github.com/james-paul25/laughshare",
+    LaughShareWebsite : "https://laughshare.vercel.app/",
+
   }
 
   let show ='';
